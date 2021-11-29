@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login-form</title>
+</head>
+<body>
+    <div class="totalpage">
+        <div class="form-box">
+            <div class="btn-box">
+                <div class="btn-move"></div>
+                <button class="toggle-btn" onclick="register()">ثبت نام</button>
+                <button class="toggle-btn" onclick="Enter()">ورود</button>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li><a href="@"><img src="icon/icons8-facebook-48.png" alt=""></a></li>
+                    <li><a href="@"><img src="icon/icons8-instagram-logo-48.png" alt=""></a></li>
+                    <li><a href="@"><img src="icon/icons8-twitter-48.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="input-box enter">
+                <from id="form">
+                    <input type="text" class="input username" placeholder="نام کاربری یا ایمیل">
+                    <input type="password" class="input password" placeholder="رمز عبور">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">مرا به خاطر بسپار</label>
+                    <button type="submit">ورود</button>
+                </from>
+            </div>
+            <div class="input-box register">
+                <from id="form">
+                    <input type="text" class="input username" placeholder="نام کاربری">
+                    <input type="email" class="input email" placeholder="ایمیل">
+                    <input type="password" class=" input password" placeholder="رمز عبور">
+                    <button type="submit">ثبت نام</button>
+                </from>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

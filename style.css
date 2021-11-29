@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+    direction: rtl;
+    overflow: hidden;
+
+}
+@font-face{
+    font-family: 'vazir';
+    src: url('vazir/Vazir.eot') format('eot');
+    src: url('vazir/Vazir.woff') format('woff');
+}
+
+.totalpage{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#00000066,#00000080),url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    position: relative;
+    width: 280px;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 45px #5a5a5a,
+             -5px -5px 45px #ffffff;
+}
+.form-box .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 40px;
+    margin: 20px auto 10px auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #5a5a5a,
+             -5px -5px 10px #ffffff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.form-box .btn-box .toggle-btn{
+    position: relative;
+    font-size: 12px;
+    padding: 0px 12px;
+    margin-right: 4px;
+    border: none;
+    cursor: pointer;
+    background:transparent;
+}
+.btn-box .btn-move{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 55%;
+    background-color: brown;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+/* @@@@@@@@@ */
+
+.social-media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-media ul li{
+    margin-left: 15px;
+}
+.social-media ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.social-media ul li a img{
+    width: 40px;
+    height: 40px
+    
+}
+
+/* @@@@@@@@@@@@ */
+
+.input-box{
+    width: 100%;
+    padding: 10px 25px;
+    position: absolute;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+.input-box .input{
+    width: 100%;
+    height: 40px;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #b8b4b4;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.input-box #checkbox{
+    margin:0px 5px;
+}
+.input-box label{
+    font-size: 13px;
+}
+.input-box button{
+    width: 100%;
+    margin: 20px 0px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #3bbb3b;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.input-box button:hover{
+    background-color: #16851f;
+}
+
+.register{
+    right: -450px;
+}
+.enter{
+    right: 0px;
+}
